@@ -1,0 +1,141 @@
+@import url("./global.css");
+@import url('./reset.css');  
+
+body {
+   color: white;
+   text-align: center;
+   box-sizing: border-box;
+   background-color: black;
+   line-height: 24px;
+}
+.banner {
+    padding-top: 60px;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/fundo.png');
+    background-size: cover;
+    height: 600px;
+    border-bottom: 1px solid #33a8db80;
+	}
+.banner .banner-content {
+    width: 600px;
+    height: 491px;
+    text-align: center;
+    margin: auto;
+}
+.banner .banner-content .logo {
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: rgba(0, 0, 0, .2);
+}
+.banner .banner-content h1 {
+    line-height: 60px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: transparent;
+    background: linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+}
+.banner .banner-content p {
+    font-size: 1.25rem;
+    line-height: 30px;
+    font-weight: normal;
+    color: white;
+    margin: 24px;
+}
+.banner .banner-content button {
+    color: #31a8dd;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 16px 32px;
+    letter-spacing: 4px;
+    background-color: transparent;
+    border: 2px solid #31a8dd;
+    text-transform: uppercase;  
+    border-image: linear-gradient(#3ba1cd, #1572b7);
+    border-image-slice: 10;
+    border-radius: 30px;
+   }
+#course-content {
+width: 800px;
+height: 336px;
+margin: 100px auto;
+}
+#course-content h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin-bottom: 24px;
+    line-height: 48px;
+    color: #33a8db;
+}
+#course-content p {
+    font-weight: normal;
+}
+#course-content .modules-list {
+    margin: 24px 0;
+}
+#course-content .modules-list .module {
+    width: 530px;
+    margin: 0 auto 24px;
+    border: 1px solid #33a8db;
+    background-color: #252525;
+    padding: 16px;
+    border-radius: 100px;
+    font-weight: normal;
+    box-shadow: inset -5px 6px 8px rgb(0 0 0 / 70%);
+}
+#course-content .modules-list .module #list {
+    color: #33a8db;
+    font-weight: normal;
+}
+#transform-world {
+    height: 560px; 
+    background-image: url('../images/woman.png');
+    background-size: cover;
+    background-attachment: fixed;
+    border-top: 1px solid #33a8db80;
+    border-bottom: 1px solid #33a8db80;
+    padding: 200px;
+}
+#transform-world p {
+    font-size: 2.5rem;
+    text-transform: lowercase;
+    max-width: 250px;
+    text-shadow: 3px 2px #33a8db;
+    line-height: 60px;
+}
+#homem {
+    width: 800px;
+    margin: 100px auto;
+}
+#homem h2 {
+    font-size: 2rem;
+    color: #33a8db;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    line-height: 48px;
+}
+#homem img {
+    margin: 32px 0;
+}
+#homem p {
+    font-weight: normal;
+}
+footer {
+border-top: 1px solid #33a8db80;
+padding: 60px 0;
+background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 218, .2));
+}
+footer p {
+font-weight: normal;
+}
+footer a {
+    color: #33a8db;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
